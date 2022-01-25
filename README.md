@@ -1,6 +1,7 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
 Deployed Link: https://interceptr83.github.io/WorkDayScheduler/
+![planner_screenshot](https://user-images.githubusercontent.com/90010873/150966794-205dacb9-93c8-48d8-9e72-6db5f3b995dc.jpg)
 
 ## Your Task
 
