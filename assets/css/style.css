@@ -1,0 +1,108 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color:grey;
+}
+
+.pageCard {
+  min-height: 100vh;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+  text-align: center;
+    background-color: rgb(37, 50, 88);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.input {
+  text-align: center;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: rgb(37, 50, 88);
+  padding-bottom: 40px;
+  border-style: solid;
+  border-color: black;
+  margin: 5px 0px 5px 0px;
+}
+
+.present {
+  background-color: rgb(37, 50, 88);
+  color: white;
+  padding-bottom: 40px;
+  border-style: solid;
+  border-color: black;
+  margin: 5px 0px 5px 0px;
+}
+
+.future {
+  background-color: rgb(78, 98, 158);
+  color: white;
+  padding-bottom: 40px;
+  border-style: solid;
+  border-color: black;
+  margin: 5px 0px 5px 0px;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+h4 {
+  color:rgb(37, 50, 88);
+  font-weight: bold;
+  display: inline;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.timeBut {
+  background-color: rgb(37, 50, 88);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+  background-color: rgb(37, 50, 88);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(78, 98, 158);
+}
+.timeBut:hover {
+  background-color: rgb(78, 98, 158);
+}
+
+.blocks{
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 10px;
+}
+
+li{
+  list-style-position:inside;
+  font-family:cursive
+}
