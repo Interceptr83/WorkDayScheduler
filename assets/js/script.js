@@ -1,5 +1,5 @@
 // Create an array of time blocks
-const timeblocks = [ 9, 10, 11, 12, 1, 2, 3, 4, 5];
+const timeblocks = [ 9, 10, 11, 12, 13, 14, 15, 16, 17];
 
 // wait for page to load and be accessible for jquery
 $(document).ready(function () {
