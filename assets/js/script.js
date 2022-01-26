@@ -39,15 +39,16 @@ $(document).ready(function () {
         let entry = entryEl.value;
         let timeBl = timeBlockEl.value;
 
-        // console.log(entry);
-        //console.log(timeBl);
+        console.log(entry);
+        console.log(timeBl);
 
       // Print the new note to the page
         const block = document.getElementById(`${timeBl}`);
         const newItem = document.createElement("li");
         newItem.textContent = entry;
         block.appendChild(newItem);
-
+      
+     
       // Save note and assigned time block to the local storage object
         let planner = JSON.parse(window.localStorage.getItem("planner")) || [];
         let storeEnt = {
